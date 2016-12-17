@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="compiled/flipclock.js"></script>  
+  <link rel="stylesheet" href="compiled/flipclock.css">
+  <meta charset="utf-8">	
+<title>Wedding site</title>
+</head>
+
+<body>
+	
+   <div class="clock" style="margin:2em;"></div>
+
+   <table class="centerImg">
+      <tr>
+	  	 <td class="td150"></td>
+         <td><a href="index.html"><img src="img/600_200.png"></td>
+		 <td class="td150"></td>
+      </tr>
+   </table>
+		
+		<script type="text/javascript">
+			var clock;
+
+			$(document).ready(function() {
+
+				// Grab the current date
+				var currentDate = new Date();
+
+				// Set some date in the past. In this case, it's always been since Jan 1
+				var wedding  = new Date(2017,08,19);
+
+				// Calculate the difference in seconds between the future and current date
+				var diff = wedding.getTime() / 1000 - currentDate.getTime() / 1000;
+
+				// Instantiate a coutdown FlipClock
+				clock = $('.clock').FlipClock(diff, {
+					clockFace: 'DailyCounter'
+				});
+			});
+		</script>
+
+
+   
+   <table class="centerMenu">
+      <tr>
+	     <td class="td150"></td>
+	     <td class="td960">
+		 <hr>
+            <div class="wrapper">
+               <ul>
+                  <li><a href="main.html" title="FŐOLDAL">FŐOLDAL</a></li>
+                  <li class="dropdown">
+                     <a href="javascript:void(0)" class="dropbtn"  title="TÖRTÉNETÜNK">TÖRTÉNETÜNK</a>
+                     <div class="dropdown-content">
+                        <a href="story.html" title="MIELŐTT MEGISMERTELEK">MIELŐTT MEGISMERTELEK</a>
+                        <a href="story.html">ELSŐ TALÁLKOZÁSUNK</a>
+                        <a href="story.html">RANDEVÚNK</a>
+                        <a href="story.html">EGYÜTTÉLÉS</a>
+                     </div>
+                  </li>
+                  <li><a href="engage.html" title="ELJEGYZÉSÜNK">ELJEGYZÉSÜNK</a></li>
+                  <li><a href="wedding.html" title="ESKÜVŐNK">ESKÜVŐNK</a></li>
+                  <li><a href="photo.html" title="FOTÓALBUM">FOTÓALBUM</a></li>
+                  <li><a href="contact.html" title="KAPCSOLAT">KAPCSOLAT</a></li>
+               </ul>
+            </div>
+		 <hr>
+		 </td>
+	     <td class="td150"></td>	 		 
+      </tr>
+   </table>
+   
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="img1.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="img2.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="img3.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>   
+
+  <script src="scripts.js"></script>
+  
+  
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mollis posuere leo, sit amet dignissim turpis facilisis elementum. Phasellus vehicula metus a quam pharetra dictum. Nam id dui venenatis, scelerisque ante a, lobortis ipsum. Praesent lacus sapien, mollis quis convallis quis, malesuada sed lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida dapibus est, in sollicitudin ipsum. Cras cursus, augue non venenatis laoreet, neque ligula venenatis orci, nec cursus magna orci non erat.</p>
+
+<p>Aenean mauris leo, rutrum dignissim dui ut, dignissim varius orci. Nam ultrices mauris velit, ut varius neque feugiat accumsan. Mauris odio lacus, rhoncus tempus augue vitae, elementum feugiat sapien. Praesent ac magna lectus. Curabitur mollis dignissim placerat. Quisque imperdiet venenatis nibh vitae aliquet. Nullam sagittis vel enim ac mollis. Phasellus rutrum venenatis efficitur. Aliquam ac neque id justo faucibus bibendum. Aliquam id massa non tortor dapibus rhoncus. Donec at vulputate ipsum. Proin ligula felis, rutrum vel augue ac, efficitur lacinia erat.</p>
+
+<p>Etiam quis pharetra justo. Praesent ante lacus, porta in volutpat a, vehicula in felis. Nullam sed tortor ut arcu aliquet pellentesque. Pellentesque vitae dolor quis metus dictum pharetra vitae vitae sapien. Praesent vitae gravida purus, quis ullamcorper magna. Nam egestas libero quam, a ultrices lacus facilisis eu. Etiam vehicula ligula sem. Sed viverra, urna eget consequat vulputate, metus massa tempor eros, sodales pretium quam urna eu augue. Nunc a enim eget erat egestas euismod at ac ipsum.</p>
+
+<p>Suspendisse auctor lobortis nisi, ac tincidunt libero euismod eu. Quisque porttitor semper sem, eu faucibus nisl lacinia non. Curabitur volutpat tortor in arcu rhoncus tristique. Donec condimentum eu tortor non vulputate. Suspendisse potenti. In in dolor ut tortor vehicula lobortis. Curabitur feugiat pretium orci, quis faucibus neque pulvinar in. Sed gravida porta lectus, nec tristique mi luctus id.</p>
+
+<p>Nam auctor cursus efficitur. Integer et magna urna. In ullamcorper elit urna, vitae interdum elit egestas et. Praesent eget ipsum nec est tincidunt volutpat eget eget turpis. Duis consectetur felis at augue consequat fringilla. Aliquam erat volutpat. Nulla convallis dui arcu, in finibus augue efficitur a. Maecenas eget tristique magna. Donec euismod metus nec orci aliquet faucibus. Aliquam porttitor arcu sit amet vulputate placerat. Maecenas sit amet tincidunt erat. </p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mollis posuere leo, sit amet dignissim turpis facilisis elementum. Phasellus vehicula metus a quam pharetra dictum. Nam id dui venenatis, scelerisque ante a, lobortis ipsum. Praesent lacus sapien, mollis quis convallis quis, malesuada sed lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida dapibus est, in sollicitudin ipsum. Cras cursus, augue non venenatis laoreet, neque ligula venenatis orci, nec cursus magna orci non erat.</p>
+
+<p>Aenean mauris leo, rutrum dignissim dui ut, dignissim varius orci. Nam ultrices mauris velit, ut varius neque feugiat accumsan. Mauris odio lacus, rhoncus tempus augue vitae, elementum feugiat sapien. Praesent ac magna lectus. Curabitur mollis dignissim placerat. Quisque imperdiet venenatis nibh vitae aliquet. Nullam sagittis vel enim ac mollis. Phasellus rutrum venenatis efficitur. Aliquam ac neque id justo faucibus bibendum. Aliquam id massa non tortor dapibus rhoncus. Donec at vulputate ipsum. Proin ligula felis, rutrum vel augue ac, efficitur lacinia erat.</p>
+
+<p>Etiam quis pharetra justo. Praesent ante lacus, porta in volutpat a, vehicula in felis. Nullam sed tortor ut arcu aliquet pellentesque. Pellentesque vitae dolor quis metus dictum pharetra vitae vitae sapien. Praesent vitae gravida purus, quis ullamcorper magna. Nam egestas libero quam, a ultrices lacus facilisis eu. Etiam vehicula ligula sem. Sed viverra, urna eget consequat vulputate, metus massa tempor eros, sodales pretium quam urna eu augue. Nunc a enim eget erat egestas euismod at ac ipsum.</p>
+
+<p>Suspendisse auctor lobortis nisi, ac tincidunt libero euismod eu. Quisque porttitor semper sem, eu faucibus nisl lacinia non. Curabitur volutpat tortor in arcu rhoncus tristique. Donec condimentum eu tortor non vulputate. Suspendisse potenti. In in dolor ut tortor vehicula lobortis. Curabitur feugiat pretium orci, quis faucibus neque pulvinar in. Sed gravida porta lectus, nec tristique mi luctus id.</p>
+
+<p>Nam auctor cursus efficitur. Integer et magna urna. In ullamcorper elit urna, vitae interdum elit egestas et. Praesent eget ipsum nec est tincidunt volutpat eget eget turpis. Duis consectetur felis at augue consequat fringilla. Aliquam erat volutpat. Nulla convallis dui arcu, in finibus augue efficitur a. Maecenas eget tristique magna. Donec euismod metus nec orci aliquet faucibus. Aliquam porttitor arcu sit amet vulputate placerat. Maecenas sit amet tincidunt erat. </p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mollis posuere leo, sit amet dignissim turpis facilisis elementum. Phasellus vehicula metus a quam pharetra dictum. Nam id dui venenatis, scelerisque ante a, lobortis ipsum. Praesent lacus sapien, mollis quis convallis quis, malesuada sed lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida dapibus est, in sollicitudin ipsum. Cras cursus, augue non venenatis laoreet, neque ligula venenatis orci, nec cursus magna orci non erat.</p>
+
+<p>Aenean mauris leo, rutrum dignissim dui ut, dignissim varius orci. Nam ultrices mauris velit, ut varius neque feugiat accumsan. Mauris odio lacus, rhoncus tempus augue vitae, elementum feugiat sapien. Praesent ac magna lectus. Curabitur mollis dignissim placerat. Quisque imperdiet venenatis nibh vitae aliquet. Nullam sagittis vel enim ac mollis. Phasellus rutrum venenatis efficitur. Aliquam ac neque id justo faucibus bibendum. Aliquam id massa non tortor dapibus rhoncus. Donec at vulputate ipsum. Proin ligula felis, rutrum vel augue ac, efficitur lacinia erat.</p>
+
+<p>Etiam quis pharetra justo. Praesent ante lacus, porta in volutpat a, vehicula in felis. Nullam sed tortor ut arcu aliquet pellentesque. Pellentesque vitae dolor quis metus dictum pharetra vitae vitae sapien. Praesent vitae gravida purus, quis ullamcorper magna. Nam egestas libero quam, a ultrices lacus facilisis eu. Etiam vehicula ligula sem. Sed viverra, urna eget consequat vulputate, metus massa tempor eros, sodales pretium quam urna eu augue. Nunc a enim eget erat egestas euismod at ac ipsum.</p>
+
+<p>Suspendisse auctor lobortis nisi, ac tincidunt libero euismod eu. Quisque porttitor semper sem, eu faucibus nisl lacinia non. Curabitur volutpat tortor in arcu rhoncus tristique. Donec condimentum eu tortor non vulputate. Suspendisse potenti. In in dolor ut tortor vehicula lobortis. Curabitur feugiat pretium orci, quis faucibus neque pulvinar in. Sed gravida porta lectus, nec tristique mi luctus id.</p>
+
+<p>Nam auctor cursus efficitur. Integer et magna urna. In ullamcorper elit urna, vitae interdum elit egestas et. Praesent eget ipsum nec est tincidunt volutpat eget eget turpis. Duis consectetur felis at augue consequat fringilla. Aliquam erat volutpat. Nulla convallis dui arcu, in finibus augue efficitur a. Maecenas eget tristique magna. Donec euismod metus nec orci aliquet faucibus. Aliquam porttitor arcu sit amet vulputate placerat. Maecenas sit amet tincidunt erat. </p>
+</body>
+<!--  <script src="scripts.js"></script> -->
+ 
+</html>
