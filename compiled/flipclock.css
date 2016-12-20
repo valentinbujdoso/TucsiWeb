@@ -14,6 +14,17 @@ table.centerMenu{
 	width: 960px;
 }
 
+table.counter{
+	 border:1px solid #021a40; /*test purpose*/
+     border-radius: 6px;
+     background-color: #f2f2f2;
+}
+
+table.counter td.border{
+    border:1px solid #021a40;
+    border-radius: 6px;
+}
+
 table.centerMenu td.td960{
 	width: 960px;
 }
@@ -271,7 +282,6 @@ a::after {
   position: relative;
   width: 210px;
   height: 60px;
-  margin: 1em;
 }
 
 .flip-clock-wrapper:before,
