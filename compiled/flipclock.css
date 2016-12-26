@@ -14,15 +14,23 @@ table.centerMenu{
 	width: 960px;
 }
 
+table.centerImg{
+    width: 960px;
+	height: 80px;
+}
+
 table.counter{
 	 border:1px solid #021a40; /*test purpose*/
      border-radius: 6px;
      background-color: #f2f2f2;
+	 width: 220px;	
+	 height: 165px;	
 }
 
 table.counter td.border{
     border:1px solid #021a40;
     border-radius: 6px;
+    height: 30px; 
 }
 
 table.centerMenu td.td960{
@@ -31,6 +39,10 @@ table.centerMenu td.td960{
 
 table.centerMenu td.td150{
 	width: 150px;
+}
+
+table.centerImg td.td960{
+	width: 960px;
 }
 
 img{
@@ -413,7 +425,7 @@ a::after {
   display: inline-block;
   position: relative;
   width: 20px;
-  height: 100px; }
+  height: 90px; }
 
 .flip-clock-divider:first-child {
   width: 0; }
