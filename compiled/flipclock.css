@@ -155,7 +155,7 @@ a::after {
 
  /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 960px;
   position: relative;
   margin: auto;
 }
