@@ -2,7 +2,7 @@
 /*Tables*/
 /*----------------------------------------------------------------------*/
 
-table.centerImg, table.centerMenu, table.centerMenu fixed {
+table.centerText, table.centerImg, table.centerMenu, table.centerMenu fixed {
     width: 1260px;
     margin-left:auto; 
     margin-right:auto;
@@ -27,6 +27,10 @@ table.counter{
 	 height: 165px;	
 }
 
+table.centerText{
+	width: 960px;
+}
+
 table.counter td.border{
     border:1px solid #021a40;
     border-radius: 6px;
@@ -42,6 +46,10 @@ table.centerMenu td.td150{
 }
 
 table.centerImg td.td960{
+	width: 960px;
+}
+
+table.centerText td.td960{
 	width: 960px;
 }
 
