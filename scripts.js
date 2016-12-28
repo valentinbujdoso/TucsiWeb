@@ -3,12 +3,12 @@
 //--------------------------------------------------------------------------
 
 $(window).bind('scroll', function() {
-     if ($(window).scrollTop() > 140) {
-         console.log("g");
+     if ($(window).scrollTop() > 95) { //140
+//         console.log("g");
          $("table.centerMenu").addClass('fixed');
      }
      else {
-		 console.log("l");
+//		 console.log("l");
          $("table.centerMenu").removeClass('fixed');
      }
 });
@@ -65,11 +65,11 @@ function CheckIdleTime() {
      	   
   if(_idleSecondsCounter == 20)
   {
-     console.log(slideIndex);
+     //console.log(slideIndex);
 	 slideIndex = slideIndex % slides.length;
-	 console.log(slideIndex);
+	 //console.log(slideIndex);
 	 slideIndex++;
-	 console.log(slideIndex);
+	 //console.log(slideIndex);
 	 showSlides();
   }
 }
