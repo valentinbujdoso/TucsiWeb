@@ -125,6 +125,8 @@ li.dropdown, li.dropdownselected {
     text-decoration: none;
     display: block;
     text-align: left;
+    height: 10px;
+    
 }
 
 #.dropdown-content a:hover {background-color: #f1f1f1}
