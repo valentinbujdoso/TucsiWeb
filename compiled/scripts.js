@@ -63,7 +63,7 @@ function showSlides(n) {
 function CheckIdleTime() {
      _idleSecondsCounter++;
      	   
-  if(_idleSecondsCounter == 20)
+  if(_idleSecondsCounter == 5)
   {
      //console.log(slideIndex);
 	 slideIndex = slideIndex % slides.length;
