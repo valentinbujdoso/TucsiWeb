@@ -71,21 +71,27 @@ hr{
 .wrapper { text-align: center; }
 
 .wrapper ul {
-    display: inline-block;
     margin: 0;
     padding: 0;
     /* For IE, the outcast */
     zoom:1;
-    *display: inline;
+    display: flex;
+    justify-content: space-between;
 }
 
 .wrapper li {
     float: left;
     padding: 0;
     border: 0;
+/*    min-width: 150px;*/
+    font-size: 14px;
 }
 
-ul {list-style-type: none;}
+ul 
+{
+    list-style-type: none;
+    width:100%;
+}
 
 li { float: left; }
 
@@ -103,7 +109,8 @@ li a, .dropbtn {
 li a:hover, .dropdown:hover .dropbtn,
 div.wrapper li.selected a,
 div.wrapper li.dropdownselected a.dropbtn{ /*#2. half for the selected menu item*/
-    font-weight: bold;
+    /*font-weight: bold;*/
+    text-shadow: 1px 0px #000000;
 }
 
 li.dropdown, li.dropdownselected {
@@ -114,10 +121,11 @@ li.dropdown, li.dropdownselected {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+/*    width: 230px;*/
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 5;
 }
+
 
 .dropdown-content a {
     color: black;
