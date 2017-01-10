@@ -3,7 +3,7 @@
 //--------------------------------------------------------------------------
 
 $(window).bind('scroll', function() {
-     if ($(window).scrollTop() > 95) { //140
+     if ($(window).scrollTop() > 205) { //140
 //         console.log("g");
          $("table.centerMenu").addClass('fixed');
      }
