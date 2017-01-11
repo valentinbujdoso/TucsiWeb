@@ -13,6 +13,23 @@ $(window).bind('scroll', function() {
      }
 });
 
+$(window).bind('scroll', function() {
+     if ($(window).scrollTop() > 205) {
+//         console.log("g");
+         $("div.gotop").addClass('gotopfix');
+     }
+     else {
+//		 console.log("l");
+         $("div.gotop").removeClass('gotopfix');
+     }
+});
+//--------------------------------------------------------------------------
+//GoTop click
+//--------------------------------------------------------------------------
+
+function gotop(){
+	$(window).scrollTop(0);
+}
 
 //--------------------------------------------------------------------------
 //Slide show
