@@ -7,7 +7,7 @@ table{
 }
 
 table.centerText, table.centerImg, table.centerMenu, table.centerCopyRight, table.centerMenu fixed {
-	width: 1260px;
+	width: 1200px;
     margin-left:auto; 
     margin-right:auto;
 	border:0; /*1px solid black;*/  /*test purpose*/
@@ -33,7 +33,7 @@ table.centerImg td.td960{
 }
 
 td.td960{
-	width: 1260px;	
+	width: 1200px;	
 }
 
 
@@ -74,7 +74,7 @@ html{
 	margin-right: auto;
 	padding: 0;
     height:30px;
-	width: 1260px;
+	width: 1200px;
 }
 
 p.footer{
@@ -187,7 +187,7 @@ a::after {
 .fixed{
    position:fixed;
    top:0px;
-   width: 1260px;
+   width: 1200px;
    margin: 0 auto; left:0px; right:0px;
    z-index: 5;
    background-color: white;
@@ -198,12 +198,12 @@ a::after {
 /*SlideShow*/
 /*----------------------------------------------------------------------*/
 .slideshow-container img{
-	width: 1260px;
+	width: 1200px;
 }
 
  /* Slideshow container */
 .slideshow-container {
-  max-width: 1260px;
+  max-width: 1200px;
   position: relative;
   margin: auto;
 }
