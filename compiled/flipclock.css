@@ -7,7 +7,7 @@ table{
 }
 
 table.centerText, table.centerImg, table.centerMenu, table.centerCopyRight, table.centerMenu fixed {
-	width: 1200px;
+	width: 1120px;
     margin-left:auto; 
     margin-right:auto;
 	border:0; /*1px solid black;*/  /*test purpose*/
@@ -33,7 +33,7 @@ table.centerImg td.td960{
 }
 
 td.td960{
-	width: 1200px;	
+	width: 1120px;	
 }
 
 
@@ -98,7 +98,7 @@ html{
 	margin-right: auto;
 	padding: 0;
     height:30px;
-	width: 1200px;
+	width: 1120px;
 }
 
 p.footer{
@@ -222,12 +222,12 @@ a::after {
 /*SlideShow*/
 /*----------------------------------------------------------------------*/
 .slideshow-container img{
-	width: 1200px;
+	width: 1120px;
 }
 
  /* Slideshow container */
 .slideshow-container {
-  max-width: 1200px;
+  max-width: 1120px;
   position: relative;
   margin: auto;
 }
