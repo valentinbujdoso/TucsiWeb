@@ -6,7 +6,7 @@ table{
 	
 }
 
-table.centerText, table.centerImg, table.centerMenu, table.centerCopyRight, table.centerMenu fixed {
+table.centerText, table.centerImg, table.centerMenu, table.centerInsta, table.centerFooter, table.centerCopyRight, table.centerMenu fixed {
 	width: 1120px;
     margin-left:auto; 
     margin-right:auto;
@@ -39,6 +39,10 @@ td.td960{
 
 table.centerCopyRight td.td960 p{ 
 	margin: 0px;
+}
+
+table.centerFooter td{
+	width: 33%;
 }
 
 img{
@@ -85,7 +89,7 @@ html{
 }
 
 .content{
-  margin-bottom:30px;/* Height of footer*/
+  margin-bottom:120px;/* Height of footer*/
 } 
 
 .footer{
@@ -97,14 +101,17 @@ html{
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0;
-    height:30px;
+    height:120px;
 	width: 1120px;
+	display: table;
 }
 
-p.footer{
-	margin: 0;
-	padding: 0;
-	text-align: center;
+.footerchild {
+    display: table-cell;
+	width: 33%;
+}
+
+.footerchildinner {
 }
 
 /*----------------------------------------------------------------------*/

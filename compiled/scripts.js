@@ -32,6 +32,26 @@ function gotop(){
 }
 
 //--------------------------------------------------------------------------
+//Insta stuff
+//--------------------------------------------------------------------------
+
+$.ajax({
+      type: "POST",
+      "method": "POST",
+
+      url: 'https://api.instagram.com/v1/users/self/media/recent/?access_token=4403035892.1677ed0.c1c2c3cfa39246efb6f9de5e4aec3a43&count=7',
+      //action (you need that to use relationship 
+      data: {action: 'follow'},
+      dataType: "jsonp", 
+      success: function(result){
+      if(result.meta.code == 200){
+		  for(i = 0; i < 7; i++)
+		  {
+	          document.getElementById("insta" + i).innerHTML ='<a href="' + result.data[i].link + '"><img src="' +result.data[i].images.thumbnail.url + '"></a>';
+		  }		
+	  }}});
+
+//--------------------------------------------------------------------------
 //Slide show
 //--------------------------------------------------------------------------
 //slideshow decl
