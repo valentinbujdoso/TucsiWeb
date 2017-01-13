@@ -6,7 +6,7 @@ table{
 	
 }
 
-table.centerText, table.centerImg, table.centerMenu, table.centerInsta, table.centerFooter, table.centerCopyRight, table.centerMenu fixed {
+table.centerText, table.centerImg, table.centerMenu, table.centerFooter table.centerCopyRight, table.centerMenu fixed {
 	width: 1120px;
     margin-left:auto; 
     margin-right:auto;
@@ -49,11 +49,44 @@ img{
 	 border:0;/*px solid #021a40;*/ /*test purpose*/
 }
 
+a1 img{
+  margin:0;
+  padding:0;
+  float:left;
+}
+
 hr{
     padding:0;
 	margin-top:0;
 	margin-bottom:0;
+	margin-left:0;
 	width: 100%;
+}
+
+	/*position:absolute;
+	left:0;*/
+
+/*----------------------------------------------------------------------*/
+/*Insta stuff*/
+/*----------------------------------------------------------------------*/
+
+.instagram{
+    height: 150px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.instagrams-wrapper {
+    width: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+    left: calc(50% + 5px);
+    opacity: 0;
+    transition: opacity 200ms ease;
+	
+	opacity: 1;
 }
 
 /*----------------------------------------------------------------------*/
@@ -92,6 +125,21 @@ html{
   margin-bottom:120px;/* Height of footer*/
 } 
 
+.footerwrap{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+    height:120px;
+	width: 100%;
+	display: table;
+    /* background: blue;	 */
+}
+
 .footer{
     position: absolute;
     bottom: 0;
@@ -112,6 +160,13 @@ html{
 }
 
 .footerchildinner {
+}
+
+
+div.footerchildinner a:link, div.footerchildinner a:visited,
+div.footerchildinner a:hover, div.footerchildinner a:active{
+	text-decoration: underline;
+	color: black;
 }
 
 /*----------------------------------------------------------------------*/
@@ -210,7 +265,6 @@ a::after {
     overflow:hidden;
     visibility:hidden;
 }
-
 /*----------------------------------------------------------------------*/
 /*FixMenu*/
 /*----------------------------------------------------------------------*/
