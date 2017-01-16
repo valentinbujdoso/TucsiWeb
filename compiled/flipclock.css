@@ -72,14 +72,14 @@ hr{
 
 .instagram{
     height: 150px;
-    position: relative;
+    /*position: relative;*/
     width: 100%;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .instagrams-wrapper {
     width: auto;
-    position: absolute;
+    position: relative;
     white-space: nowrap;
     overflow: hidden;
     left: calc(50% + 5px);
@@ -87,6 +87,18 @@ hr{
     transition: opacity 200ms ease;
 	
 	opacity: 1;
+}
+
+.instagrams-wrapper a {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin-right: -5px;
+    position: relative;
+    font-size: 18px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 /*----------------------------------------------------------------------*/

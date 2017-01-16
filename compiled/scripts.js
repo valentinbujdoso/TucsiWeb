@@ -39,20 +39,19 @@ $.ajax({
       type: "POST",
       "method": "POST",
 
-      url: 'https://api.instagram.com/v1/users/self/media/recent/?access_token=4403035892.1677ed0.c1c2c3cfa39246efb6f9de5e4aec3a43&count=16',
+      url: 'https://api.instagram.com/v1/users/self/media/recent/?access_token=4403035892.1677ed0.c1c2c3cfa39246efb6f9de5e4aec3a43&count=25',
       //action (you need that to use relationship 
       data: {action: 'follow'},
       dataType: "jsonp", 
       success: function(result){
       if(result.meta.code == 200){
-		  // for(i = 0; i < 16; i++)
-		  // {
-			  // document.getElementById("insta" + i).innerHTML ='<a1 href="' + result.data[i].link + '"><img src="' +result.data[i].images.thumbnail.url + '"></a1>';
-		  // }
+		   for(i = 0; i < 25; i++)
+		   {
+			   $('#instagrams-wrapper').append('<a1 href="' + result.data[i].link + '"><img src="' +result.data[i].images.thumbnail.url + '"></a1>');
+		   }
 		  
-		  $('#instagrams-wrapper').append('<a1 href="' + result.data[0].link + '"><img src="' +result.data[0].images.thumbnail.url + '"></a1>');
-		  $('#instagrams-wrapper').append('<a1 href="' + result.data[0].link + '"><img src="' +result.data[0].images.thumbnail.url + '"></a1>');
-		  // document.getElementById("instagrams-wrapper").innerHTML ='<a1 href="' + result.data[0].link + '"><img src="' +result.data[0].images.thumbnail.url + '"></a1>';
+		  //$('#instagrams-wrapper').append('<a1 href="' + result.data[0].link + '"><img src="' +result.data[0].images.thumbnail.url + '"></a1>');
+		  //$('#instagrams-wrapper').append('<a1 href="' + result.data[0].link + '"><img src="' +result.data[0].images.thumbnail.url + '"></a1>');
 		  
 	  }}});
 
