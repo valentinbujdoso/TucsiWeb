@@ -168,13 +168,34 @@ html{
 	width: 33%;
 }
 
-.footerchildinner {
+.footerchildinnerleft {
+    text-align:left;
+}
+
+.footerchildinnercenter {
+    text-align:center;
+}
+
+.footerchildinnerright {
+    text-align:right;
 }
 
 
-div.footerchildinner a:link, div.footerchildinner a:visited,
-div.footerchildinner a:hover, div.footerchildinner a:active{
-	text-decoration: underline;
+div.footerchildinnerleft a:link, div.footerchildinnerleft a:visited,
+div.footerchildinnerleft a:hover, div.footerchildinnerleft a:active{
+	text-decoration: none;
+	color: black;
+}
+
+div.footerchildinnercenter a:link, div.footerchildinnercenter a:visited,
+div.footerchildinnercenter a:hover, div.footerchildinnercenter a:active{
+	text-decoration: none;
+	color: black;
+}
+
+div.footerchildinnerright a:link, div.footerchildinnerright a:visited,
+div.footerchildinnerright a:hover, div.footerchildinnerright a:active{
+	text-decoration: none;
 	color: black;
 }
 
