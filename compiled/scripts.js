@@ -47,11 +47,8 @@ $.ajax({
       if(result.meta.code == 200){
 		   for(i = 0; i < 25; i++)
 		   {
-			   $('#instagrams-wrapper').append('<a1 href="' + result.data[i].link + '"><img src="' +result.data[i].images.thumbnail.url + '"></a1>');
+			   $('#instagrams-wrapper').append('<a href="' + result.data[i].link + '"><img src="' +result.data[i].images.thumbnail.url + '"></a>');
 		   }
-		  
-		  //$('#instagrams-wrapper').append('<a1 href="' + result.data[0].link + '"><img src="' +result.data[0].images.thumbnail.url + '"></a1>');
-		  //$('#instagrams-wrapper').append('<a1 href="' + result.data[0].link + '"><img src="' +result.data[0].images.thumbnail.url + '"></a1>');
 		  
 	  }}});
 

@@ -49,12 +49,6 @@ img{
 	 border:0;/*px solid #021a40;*/ /*test purpose*/
 }
 
-a1 img{
-  margin:0;
-  padding:0;
-  float:left;
-}
-
 hr{
     padding:0;
 	margin-top:0;
@@ -70,11 +64,12 @@ hr{
 /*Insta stuff*/
 /*----------------------------------------------------------------------*/
 
+
 .instagram{
     height: 150px;
-    /*position: relative;*/
+    position: relative;
     width: 100%;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 
 .instagrams-wrapper {
@@ -107,6 +102,7 @@ hr{
 .gotop{
     color: #999;
 	padding: 5px;
+	z-index:111;
 	
 }
 
@@ -120,6 +116,7 @@ hr{
    bottom: 40px;
    font: normal normal normal 14px/1 FontAwesome;
    cursor: pointer;
+   z-index:111;
 }
 
 .gotopfix:hover{
