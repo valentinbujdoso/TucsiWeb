@@ -96,6 +96,11 @@ hr{
     background-repeat: no-repeat;
 }
 
+.footerchildinnercenter a::after {
+    display:inline;
+    padding: 15px;
+}
+
 /*----------------------------------------------------------------------*/
 /*Go Top button*/
 /*----------------------------------------------------------------------*/
@@ -197,6 +202,10 @@ div.footerchildinnerright a:link, div.footerchildinnerright a:visited,
 div.footerchildinnerright a:hover, div.footerchildinnerright a:active{
 	text-decoration: none;
 	color: black;
+}
+
+p.kapcsolatok a:hover{
+    text-shadow: 1px 0px #000000;
 }
 
 /*----------------------------------------------------------------------*/
