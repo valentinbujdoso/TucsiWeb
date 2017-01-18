@@ -151,7 +151,7 @@ html{
     height:120px;
 	width: 100%;
 	display: table;
-    /* background: blue;	 */
+     background: rgb(0,75,255);
 }
 
 .footer{
