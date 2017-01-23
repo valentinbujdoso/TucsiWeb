@@ -2,6 +2,18 @@
 /*Tables*/
 /*----------------------------------------------------------------------*/
 
+body{
+	border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
 table{
 	
 }
@@ -151,7 +163,7 @@ html{
     height:120px;
 	width: 100%;
 	display: table;
-     background: rgb(0,75,255);
+    background: rgb(00,51,153);/*rgb(0,75,255);*/
 }
 
 .footer{
@@ -175,14 +187,17 @@ html{
 
 .footerchildinnerleft {
     text-align:left;
+	color: white;
 }
 
 .footerchildinnercenter {
     text-align:center;
+	color: white;
 }
 
 .footerchildinnerright {
     text-align:right;
+	color: white;
 }
 
 
@@ -195,7 +210,7 @@ div.footerchildinnerleft a:hover, div.footerchildinnerleft a:active{
 div.footerchildinnercenter a:link, div.footerchildinnercenter a:visited,
 div.footerchildinnercenter a:hover, div.footerchildinnercenter a:active{
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 
 div.footerchildinnerright a:link, div.footerchildinnerright a:visited,
