@@ -223,6 +223,31 @@ p.kapcsolatok a:hover{
     text-shadow: 1px 0px #000000;
 }
 
+.player_title{
+	font: italic 18px Playfair Display, serif;
+	text-transform: none;
+}
+
+.player_title span{
+    font: 17px Playfair Display, serif;
+	letter-spacing: 0;
+}
+
+div#tracks{
+	text-align: center;
+}
+
+/*font: italic 18px Playfair Display, serif;*/
+/*font: 17px Playfair Display, serif;*/
+
+a1#btnPrev, a1#btnNext{
+	cursor: pointer;
+}
+
+div#nowPlay{
+	text-align:left;
+}
+
 /*----------------------------------------------------------------------*/
 /*Menu*/
 /*----------------------------------------------------------------------*/
