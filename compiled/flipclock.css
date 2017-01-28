@@ -196,7 +196,7 @@ html{
 }
 
 .footerchildinnerright {
-    text-align:right;
+    text-align:left;
 	color: white;
 }
 
@@ -234,18 +234,22 @@ p.kapcsolatok a:hover{
 }
 
 div#tracks{
-	text-align: center;
+    display: inline-flex;
+	width: 100%;
 }
-
-/*font: italic 18px Playfair Display, serif;*/
-/*font: 17px Playfair Display, serif;*/
 
 a1#btnPrev, a1#btnNext{
 	cursor: pointer;
 }
 
 div#nowPlay{
-	text-align:left;
+   text-align: right;
+   width: 100%;
+}
+
+audio{
+	width: 100%;
+	background-color: #95B9C7;
 }
 
 /*----------------------------------------------------------------------*/
