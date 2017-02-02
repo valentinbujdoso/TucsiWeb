@@ -9,21 +9,24 @@ var index=0,
     extension='.ogg',
     tracks = [{ 
                 "track": 1,
-                "name": "All This Is - Joe L.'s Studio",
-                "length": "00:01",
-                "file": "horse",
-                "extension": ".ogg"
+                "artist": "Céline Dion",
+                "name": "Water and a Flame",
+                "length": "03:43",
+                "file": "1",
+                "extension": ".mp3"
             },
             { 
                 "track": 2,
-                "name": "All This Is - Judio",
-                "length": "00:01",
-                "file": "horse",
-                "extension": ".ogg"
+                "artist": "Rihanna",
+                "name": "Stay ft. Mikky Ekko",
+                "length": "04:08",
+                "file": "2",
+                "extension": ".mp3"
             },
             { 
                 "track": 3,
-                "name": "Kwabs - Perfect Ruin",
+                "artist": "Kwabs",
+                "name": "Perfect Ruin",
                 "length": "04:22",
                 "file": "3",
                 "extension": ".mp3"
