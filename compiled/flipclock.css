@@ -238,7 +238,7 @@ div#tracks{
 	width: 100%;
 }
 
-a1#btnPrev, a1#btnNext{
+a1#btnPrev, a1#btnNext, a1#btnPlay{
 	cursor: pointer;
 }
 
