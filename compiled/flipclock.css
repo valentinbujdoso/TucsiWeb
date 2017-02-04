@@ -148,7 +148,7 @@ html{
 }
 
 .content{
-  margin-bottom:120px;/* Height of footer*/
+  margin-bottom:100px;/* Height of footer*/
 } 
 
 .footerwrap{
@@ -160,7 +160,7 @@ html{
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0;
-    height:120px;
+    height:100px;
 	width: 100%;
 	display: table;
     background: rgb(00,71,717);/*rgb(0,75,255);*/
@@ -175,7 +175,7 @@ html{
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0;
-    height:120px;
+    height:100px;
 	width: 1120px;
 	display: table;
 }
@@ -198,6 +198,8 @@ html{
 .footerchildinnerright {
     text-align:left;
 	color: white;
+	line-height: 1.8;
+	padding-left: 180px;
 }
 
 
@@ -242,16 +244,35 @@ a1#btnPrev, a1#btnNext, a1#btnPlay{
 	cursor: pointer;
 }
 
+a1#btnPlay{
+	font-size: 26px;
+}
+
+a1#btnPrev{
+	padding-right: 5px;
+}
+
+a1#btnNext{
+	padding-left: 5px; 
+ }
+
 div#nowPlay{
-   text-align: right;
+   text-align: left;
    width: 100%;
 }
 
-audio{
+div#audio0{
+	display: inline-flex;
 	width: 100%;
-	background-color: #95B9C7;
 }
 
+div#play{
+	width: 20%;
+}
+
+div#audiowrap{
+	padding-top: 5px;
+}
 
 /*----------------------------------------------------------------------*/
 /*Menu*/
