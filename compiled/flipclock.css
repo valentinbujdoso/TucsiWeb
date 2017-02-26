@@ -18,7 +18,7 @@ table{
 	
 }
 
-table.centerText, table.centerImg, table.centerMenu, table.centerFooter table.centerCopyRight, table.centerMenu fixed {
+table.centerText, table.centerTextWedding, table.centerImg, table.centerMenu, table.centerFooter table.centerCopyRight, table.centerMenu fixed {
 	width: 1120px;
     margin-left:auto; 
     margin-right:auto;
@@ -55,6 +55,10 @@ table.centerCopyRight td.td960 p{
 
 table.centerFooter td{
 	width: 33%;
+}
+
+table.centerTextWedding td{
+    padding: 10px 0px 10px 0px;	
 }
 
 img{
