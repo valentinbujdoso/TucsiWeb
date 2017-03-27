@@ -65,6 +65,10 @@ img{
 	 border:0;/*px solid #021a40;*/ /*test purpose*/
 }
 
+.img-circle {
+    border-radius: 50%;
+}
+
 hr{
     padding:0;
 	margin-top:0;
