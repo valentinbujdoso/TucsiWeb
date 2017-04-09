@@ -39,7 +39,9 @@ $.ajax({
       type: "POST",
       "method": "POST",
 
-      url: 'https://api.instagram.com/v1/users/self/media/recent/?access_token=4403035892.1677ed0.c1c2c3cfa39246efb6f9de5e4aec3a43&count=25',
+	  //987836350.1677ed0.7324a65acace4599a9417f4f2fd7e714
+	  //url: 'https://api.instagram.com/v1/users/self/media/recent/?access_token=4403035892.1677ed0.c1c2c3cfa39246efb6f9de5e4aec3a43&count=25',
+	  url: 'https://api.instagram.com/v1/users/self/media/recent/?access_token=987836350.1677ed0.7324a65acace4599a9417f4f2fd7e714&count=25',
       //action (you need that to use relationship 
       data: {action: 'follow'},
       dataType: "jsonp", 
