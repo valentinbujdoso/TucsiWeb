@@ -49,11 +49,12 @@ $.ajax({
       if(result.meta.code == 200){
 		   for(i = 0; i < 25; i++)
 		   {
-			   $('#instagrams-wrapper').append('<a href="' + result.data[i].link + '"><img src="' +result.data[i].images.thumbnail.url + '"></a>');
+			   $('#instagrams-wrapper').append('<a href="' + result.data[i].link+ '" target="_blank" style="background-image:url(' + result.data[i].images.thumbnail.url + ');' + '"><div class="hovered"><div class="table"><div class="cell"><i class="fa fa-instagram"></div></i></div></div></a>');
 		   }
 		  
 	  }}});
-
+//<a href="" target="_blank" style="background-image:url(https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/17931749_1282061091890536_2962485419339415552_n.jpg);"></a>
+	  
 //--------------------------------------------------------------------------
 //Slide show
 //--------------------------------------------------------------------------
