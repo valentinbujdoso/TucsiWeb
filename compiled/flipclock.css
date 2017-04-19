@@ -146,6 +146,7 @@ hr{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    vertical-align: text-top;
 }
 
 a {
@@ -252,12 +253,12 @@ html{
 }
 
 .content{
-  margin-bottom:278px;/* Height of footer*/
+  margin-bottom:270px;/* Height of footer*/
 } 
 
 .instawrap{
     position: absolute;
-    bottom: 128px;
+    bottom: 120px;
     left: 0;
     right: 0;
 	margin: 0;
