@@ -201,6 +201,10 @@ input, textarea{
   border-radius: 2px;
 }
 
+input.submit {
+	
+}
+
 textarea {
    resize: none;
 }
