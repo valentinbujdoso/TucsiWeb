@@ -70,13 +70,13 @@
   
     <form action="php/send_form_email.php" method="post">
 	    Név<br>
-        <input type="text" name="cf_name" size="60"><br><br>
+        <input type="text" name="cf_name" size="60" required><br><br>
 	    E-mail cím<br>
-        <input type="text" name="cf_email" size="60"><br><br>
+        <input type="text" name="cf_email" size="60" required><br><br>
 	    Tárgy<br>
-        <input type="text" name="cf_subject" size="60"><br><br>
+        <input type="text" name="cf_subject" size="60" required><br><br>
 	    Üzenet<br>
-        <textarea name="cf_message" rows="10" cols="56"></textarea><br><br>
+        <textarea name="cf_message" rows="10" cols="56" required></textarea><br><br>
 		<div align="center">
     	    <input type="submit" value="Küldés" class="submit">
 		</div>
