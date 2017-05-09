@@ -207,6 +207,12 @@ input.submit {
 	height: 70px;
 }
 
+input.submit:hover {
+  color: white;
+  background-color: rgb(0,51,153);
+  cursor: pointer;
+}
+
 textarea {
    resize: none;
 }
