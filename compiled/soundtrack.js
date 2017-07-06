@@ -7,16 +7,16 @@ var index=0,
    extension='.ogg',
    tracks = [{ 
                 "track": 0,
-                "artist": "Céline Dion",
-                "name": "Water and a Flame",
+                "artist": "Dennis Lloyd",
+                "name": "Nevermind",
                 "length": "03:43",
                 "file": "1",
                 "extension": ".mp3"
             },
             { 
                 "track": 1,
-                "artist": "Rihanna",
-                "name": "Stay",
+                "artist": "Ella Eyre",
+                "name": "Waiting all night",
                 "length": "04:08",
                 "file": "2",
                 "extension": ".mp3"
